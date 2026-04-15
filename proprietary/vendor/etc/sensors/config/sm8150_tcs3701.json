@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["MTP", "Dragon", "Surf", "URSA", "EQUULEUS", "CEPHEUS", "PAVO", "CRUX", "ANDROMEDA"],
+    "hw_platform": ["MTP", "Dragon", "Surf", "URSA", "EQUULEUS", "CEPHEUS"],
     "soc_id": ["291", "246", "305", "321", "339"]
   },
   "tcs3701_platform":{
@@ -26,7 +26,7 @@
         "data": "0"
       },
       "dri_irq_num":{ "type": "int", "ver": "0",
-        "data": "119"
+        "data": "120"
       },
       "irq_pull_type":{ "type": "int", "ver": "0",
         "data": "2"
@@ -82,20 +82,20 @@
     },
     ".coefficient":{
       "owner": "sns_tcs3701",
-      "0":{ "type": "flt", "ver": "2",
-        "data": "1.563"
+      "0":{ "type": "flt", "ver": "0",
+        "data": "3.257"
       },
-      "1":{ "type": "flt", "ver": "2",
-        "data": "2.37"
+      "1":{ "type": "flt", "ver": "0",
+        "data": "1.332"
       },
-      "2":{ "type": "flt", "ver": "2",
-        "data": "-1.13"
+      "2":{ "type": "flt", "ver": "0",
+        "data": "-0.499"
       },
-      "3":{ "type": "flt", "ver": "2",
-        "data": "3.14"
+      "3":{ "type": "flt", "ver": "0",
+        "data": "-0.319"
       },
-      "4":{ "type": "flt", "ver": "2",
-        "data": "-4.76"
+      "4":{ "type": "flt", "ver": "0",
+        "data": "-0.021"
       },
       "5":{ "type": "flt", "ver": "0",
         "data": "0.0"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <lib_lowlight>
-  <device name="cepheus,crux">
+  <device name="crux,crux">
     <camera id="0">
       <iso value="210">
         <ynr_weights>0,0,0,0,0,0,0,0,0,0,0</ynr_weights>
@@ -681,7 +681,7 @@
     </camera>
   </device>
 
-  <device name="unused_sm8150_variant_a">
+  <device name="raphael">
     <camera id="0">
       <iso value="210">
         <ynr_weights>0,0,0,0,0,0,0,0,0,0,0</ynr_weights>
@@ -1103,7 +1103,7 @@
     </camera>
   </device>
 
-  <device name="unused_sm8150_variant_b">
+  <device name="raphaelin">
     <camera id="0">
       <iso value="210">
         <ynr_weights>0,0,0,0,0,0,0,0,0,0,0</ynr_weights>

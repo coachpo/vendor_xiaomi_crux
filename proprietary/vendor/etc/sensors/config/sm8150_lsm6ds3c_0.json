@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["MTP", "Surf", "QRD", "CEPHEUS", "PAVO", "CRUX", "ANDROMEDA"],
+    "hw_platform": ["MTP", "Surf", "QRD", "CEPHEUS"],
     "soc_id": ["321", "339"]
   },
   "lsm6ds3c_0_platform":{

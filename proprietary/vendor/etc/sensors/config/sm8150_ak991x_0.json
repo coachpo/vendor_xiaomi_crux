@@ -1,7 +1,7 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "Surf", "QRD", "HDK", "CEPHEUS", "PAVO", "CRUX", "ANDROMEDA"],
+    "hw_platform": ["MTP", "Surf", "QRD", "HDK", "CEPHEUS"],
     "soc_id": ["321", "341", "339"]
   },
   "ak0991x_0_platform":{

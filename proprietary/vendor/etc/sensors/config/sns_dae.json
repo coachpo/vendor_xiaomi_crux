@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["MTP","QRD","Dragon","Surf", "CEPHEUS", "PAVO", "CRUX", "ANDROMEDA"],
+    "hw_platform": ["MTP","QRD","Dragon","Surf", "CEPHEUS"],
     "soc_id": ["339"]
   },
   "dae":{

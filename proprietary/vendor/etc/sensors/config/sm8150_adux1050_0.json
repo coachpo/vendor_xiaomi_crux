@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["MTP", "Dragon", "Surf", "CEPHEUS", "PAVO", "CRUX", "ANDROMEDA"],
+    "hw_platform": ["MTP", "Dragon", "Surf", "CEPHEUS"],
     "soc_id": ["291", "246", "305", "321", "339"]
   },
   "adux1050_0_platform":{
