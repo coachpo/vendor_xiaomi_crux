@@ -1,5 +1,7 @@
 # Xiaomi Mi 9 Pro 5G (crux) — vendor tree
 
+English | [简体中文](README_CN.md)
+
 Proprietary vendor blobs for the Xiaomi Mi 9 Pro 5G (codename `crux`), used for Android 13-era ROM bring-up.
 
 Pairs with:
