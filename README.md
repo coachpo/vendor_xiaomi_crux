@@ -9,7 +9,9 @@ Pairs with:
 - [device_xiaomi_crux](https://github.com/coachpo/device_xiaomi_crux) — device tree
 - [kernel_xiaomi_crux](https://github.com/coachpo/kernel_xiaomi_crux) — kernel source
 
-Branch `thirteen-plus` tracks the A13 bring-up state.
+`thirteen-plus` is the only working branch. This source baseline combines the
+PixelExperience Cepheus donor set with identified Crux sensor and SDX50 inputs;
+it has not passed a complete ROM build or hardware validation.
 
 ## Inputs and regeneration
 

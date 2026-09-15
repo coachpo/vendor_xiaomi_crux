@@ -9,7 +9,9 @@
 - [device_xiaomi_crux](https://github.com/coachpo/device_xiaomi_crux) —— 设备树
 - [kernel_xiaomi_crux](https://github.com/coachpo/kernel_xiaomi_crux) —— 内核源码
 
-`thirteen-plus` 分支跟踪 A13 移植状态。
+`thirteen-plus` 是唯一工作分支。本源码基线沿用 PixelExperience 的 Cepheus
+参考 blobs，并引入已定位来源的 Crux 传感器配置和 SDX50 加载组件；尚未完成
+完整 ROM 编译和真机验证。
 
 ## 来源和打包文件再生成
 
