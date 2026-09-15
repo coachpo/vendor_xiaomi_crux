@@ -10,3 +10,20 @@ Pairs with:
 - [kernel_xiaomi_crux](https://github.com/coachpo/kernel_xiaomi_crux) — kernel source
 
 Branch `thirteen-plus` tracks the A13 bring-up state.
+
+## Inputs and regeneration
+
+See [PROVENANCE.md](PROVENANCE.md) for the imported blob sources, pinned
+configuration files, extraction tool revision, and validation boundary.
+
+From the Android source root:
+
+```sh
+python3 device/xiaomi/crux/update-sha1sums.py --check
+device/xiaomi/crux/setup-makefiles.sh
+```
+
+The first command checks the complete blob inventory and all pinned SHA-1 values.
+The second regenerates `Android.bp`, `Android.mk`, `BoardConfigVendor.mk`, and
+`crux-vendor.mk` using the PixelExperience `tools/extract-utils` checkout.
+Keep packaging changes in the device extraction list or generator script.

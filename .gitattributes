@@ -1,0 +1,6 @@
+# Proprietary files must retain their upstream bytes for extraction pins.
+proprietary/** -text
+
+# These pinned upstream XMLs intentionally end with a blank line.
+proprietary/vendor/etc/listen_platform_info.xml whitespace=-blank-at-eof
+proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml whitespace=-blank-at-eof
