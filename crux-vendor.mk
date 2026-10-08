@@ -897,6 +897,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/crux/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt
 
 PRODUCT_PACKAGES += \
+    libssccalapi \
+    libnanopb \
     SoterService \
     CACertService \
     CneApp \
